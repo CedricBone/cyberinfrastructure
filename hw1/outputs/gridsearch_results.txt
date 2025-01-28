@@ -1406,3 +1406,13 @@ SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=8, Avg
 =========================================
        Top 10 Fastest Overall           
 =========================================
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=364.3867, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=370.7940, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=373.4549, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=373.8133, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=376.6545, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=377.2278, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=378.9181, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=379.1570, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=379.4823, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=382.7398, Correct=OK
