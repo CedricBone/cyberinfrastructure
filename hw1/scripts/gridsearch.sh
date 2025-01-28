@@ -88,14 +88,8 @@ for opt in "${OPT_FLAGS[@]}"; do
   done      # end march flags
 done        # end opt flags
 
-########################################
-# Top 10 fastest
-########################################
-echo "" | tee -a "$RESULT_FILE"
-echo "=========================================" | tee -a "$RESULT_FILE"
-echo "       Top 10 Fastest Overall           " | tee -a "$RESULT_FILE"
-echo "=========================================" | tee -a "$RESULT_FILE"
 
+# Top 10 fastest
 python3 src/parse_and_sort.py | tee -a "$RESULT_FILE"
 
 echo "Grid search complete. See '$RESULT_FILE' for details."

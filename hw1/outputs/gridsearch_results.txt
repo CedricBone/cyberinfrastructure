@@ -6,348 +6,348 @@ Algorithm=std, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments std 1 samples/sample1.in tmp_std_1_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0094
+Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0049
 COMMAND: src/sort_experiments std 1 samples/sample2.in tmp_std_1_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0107
+Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0110
 COMMAND: src/sort_experiments std 1 samples/sample3.in tmp_std_1_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1011
+Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1016
 COMMAND: src/sort_experiments std 1 samples/sample4.in tmp_std_1_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=9.8660
+Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=9.6850
 COMMAND: src/sort_experiments std 1 samples/sample5.in tmp_std_1_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=201.0102
+Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=194.4704
 COMMAND: src/sort_experiments std 1 samples/sample6.in tmp_std_1_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=434.8615
+Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=404.7587
 COMMAND: src/sort_experiments std 1 samples/sample7.in tmp_std_1_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=935.8232
+Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=843.5843
 COMMAND: src/sort_experiments std 1 samples/sample8.in tmp_std_1_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1888.1453
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=1, AvgTimeMS=433.7284, Correct=OK
+Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1749.5192
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=1, AvgTimeMS=400.2668, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments std 2 samples/sample1.in tmp_std_2_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0043
+Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0040
 COMMAND: src/sort_experiments std 2 samples/sample2.in tmp_std_2_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0102
+Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0153
 COMMAND: src/sort_experiments std 2 samples/sample3.in tmp_std_2_2.out
 Result for samples/sample3.in:
 Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1015
 COMMAND: src/sort_experiments std 2 samples/sample4.in tmp_std_2_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=9.6785
+Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=8.2362
 COMMAND: src/sort_experiments std 2 samples/sample5.in tmp_std_2_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=190.1849
+Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=153.9477
 COMMAND: src/sort_experiments std 2 samples/sample6.in tmp_std_2_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=440.8225
+Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=401.1832
 COMMAND: src/sort_experiments std 2 samples/sample7.in tmp_std_2_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=889.8677
+Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=841.1367
 COMMAND: src/sort_experiments std 2 samples/sample8.in tmp_std_2_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1884.7567
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=2, AvgTimeMS=426.9282, Correct=OK
+Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1748.0097
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=2, AvgTimeMS=394.0792, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments std 4 samples/sample1.in tmp_std_4_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0120
+Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0047
 COMMAND: src/sort_experiments std 4 samples/sample2.in tmp_std_4_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0112
+Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0108
 COMMAND: src/sort_experiments std 4 samples/sample3.in tmp_std_4_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.0948
+Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1066
 COMMAND: src/sort_experiments std 4 samples/sample4.in tmp_std_4_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=10.6675
+Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=9.6767
 COMMAND: src/sort_experiments std 4 samples/sample5.in tmp_std_4_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=197.6883
+Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=197.2100
 COMMAND: src/sort_experiments std 4 samples/sample6.in tmp_std_4_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=434.5214
+Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=401.2934
 COMMAND: src/sort_experiments std 4 samples/sample7.in tmp_std_4_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=906.4065
+Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=844.9076
 COMMAND: src/sort_experiments std 4 samples/sample8.in tmp_std_4_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1884.1213
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=4, AvgTimeMS=429.1903, Correct=OK
+Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1756.5141
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=4, AvgTimeMS=401.2154, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments std 8 samples/sample1.in tmp_std_8_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0043
+Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0048
 COMMAND: src/sort_experiments std 8 samples/sample2.in tmp_std_8_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0151
+Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0107
 COMMAND: src/sort_experiments std 8 samples/sample3.in tmp_std_8_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1013
+Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1064
 COMMAND: src/sort_experiments std 8 samples/sample4.in tmp_std_8_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=11.2911
+Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=11.2092
 COMMAND: src/sort_experiments std 8 samples/sample5.in tmp_std_8_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=198.2236
+Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=174.7395
 COMMAND: src/sort_experiments std 8 samples/sample6.in tmp_std_8_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=429.2570
+Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=401.3133
 COMMAND: src/sort_experiments std 8 samples/sample7.in tmp_std_8_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=912.7945
+Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=848.0818
 COMMAND: src/sort_experiments std 8 samples/sample8.in tmp_std_8_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1888.8888
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=8, AvgTimeMS=430.0719, Correct=OK
+Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1753.6880
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=8, AvgTimeMS=398.6442, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick 1 samples/sample1.in tmp_quick_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0045
+Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0060
 COMMAND: src/sort_experiments quick 1 samples/sample2.in tmp_quick_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0121
+Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0125
 COMMAND: src/sort_experiments quick 1 samples/sample3.in tmp_quick_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1135
+Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1142
 COMMAND: src/sort_experiments quick 1 samples/sample4.in tmp_quick_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=13.6656
+Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=9.9706
 COMMAND: src/sort_experiments quick 1 samples/sample5.in tmp_quick_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=207.3466
+Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=236.1203
 COMMAND: src/sort_experiments quick 1 samples/sample6.in tmp_quick_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=526.5617
+Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=484.2461
 COMMAND: src/sort_experiments quick 1 samples/sample7.in tmp_quick_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1065.8750
+Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1006.6498
 COMMAND: src/sort_experiments quick 1 samples/sample8.in tmp_quick_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2196.0855
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=501.2080, Correct=OK
+Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2073.8051
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=476.3655, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick 2 samples/sample1.in tmp_quick_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0082
+Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0053
 COMMAND: src/sort_experiments quick 2 samples/sample2.in tmp_quick_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0103
+Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0117
 COMMAND: src/sort_experiments quick 2 samples/sample3.in tmp_quick_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1155
+Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1324
 COMMAND: src/sort_experiments quick 2 samples/sample4.in tmp_quick_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=10.0796
+Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=9.5339
 COMMAND: src/sort_experiments quick 2 samples/sample5.in tmp_quick_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=221.1457
+Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=191.2778
 COMMAND: src/sort_experiments quick 2 samples/sample6.in tmp_quick_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=519.1052
+Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=508.2414
 COMMAND: src/sort_experiments quick 2 samples/sample7.in tmp_quick_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1076.6925
+Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1051.8937
 COMMAND: src/sort_experiments quick 2 samples/sample8.in tmp_quick_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2290.1580
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=514.6643, Correct=OK
+Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2193.4451
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=494.3176, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick 4 samples/sample1.in tmp_quick_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0049
+Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0109
 COMMAND: src/sort_experiments quick 4 samples/sample2.in tmp_quick_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0190
+Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0171
 COMMAND: src/sort_experiments quick 4 samples/sample3.in tmp_quick_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1153
+Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1149
 COMMAND: src/sort_experiments quick 4 samples/sample4.in tmp_quick_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=11.6575
+Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=10.7847
 COMMAND: src/sort_experiments quick 4 samples/sample5.in tmp_quick_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=193.8123
+Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=227.1853
 COMMAND: src/sort_experiments quick 4 samples/sample6.in tmp_quick_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=511.3815
+Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=475.2371
 COMMAND: src/sort_experiments quick 4 samples/sample7.in tmp_quick_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1077.3835
+Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1055.8775
 COMMAND: src/sort_experiments quick 4 samples/sample8.in tmp_quick_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2210.9187
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=500.6615, Correct=OK
+Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2079.7189
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=481.1183, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick 8 samples/sample1.in tmp_quick_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0046
+Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0051
 COMMAND: src/sort_experiments quick 8 samples/sample2.in tmp_quick_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0124
+Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0117
 COMMAND: src/sort_experiments quick 8 samples/sample3.in tmp_quick_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1152
+Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1193
 COMMAND: src/sort_experiments quick 8 samples/sample4.in tmp_quick_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=10.9124
+Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=12.5574
 COMMAND: src/sort_experiments quick 8 samples/sample5.in tmp_quick_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=226.9427
+Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=230.7508
 COMMAND: src/sort_experiments quick 8 samples/sample6.in tmp_quick_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=514.8278
+Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=474.4451
 COMMAND: src/sort_experiments quick 8 samples/sample7.in tmp_quick_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1122.1823
+Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1007.9449
 COMMAND: src/sort_experiments quick 8 samples/sample8.in tmp_quick_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2219.2024
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=511.7749, Correct=OK
+Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2075.2694
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=475.1379, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 1 samples/sample1.in tmp_quick_par_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0155
+Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0093
 COMMAND: src/sort_experiments quick_par 1 samples/sample2.in tmp_quick_par_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0156
+Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0151
 COMMAND: src/sort_experiments quick_par 1 samples/sample3.in tmp_quick_par_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1237
+Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1169
 COMMAND: src/sort_experiments quick_par 1 samples/sample4.in tmp_quick_par_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=10.3571
+Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=13.3636
 COMMAND: src/sort_experiments quick_par 1 samples/sample5.in tmp_quick_par_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=220.5294
+Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=236.1845
 COMMAND: src/sort_experiments quick_par 1 samples/sample6.in tmp_quick_par_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=505.2909
+Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=473.6058
 COMMAND: src/sort_experiments quick_par 1 samples/sample7.in tmp_quick_par_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1109.5845
+Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1000.1145
 COMMAND: src/sort_experiments quick_par 1 samples/sample8.in tmp_quick_par_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2275.8206
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=515.2171, Correct=OK
+Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2062.9877
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=473.2996, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 2 samples/sample1.in tmp_quick_par_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1117
+Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1297
 COMMAND: src/sort_experiments quick_par 2 samples/sample2.in tmp_quick_par_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1231
+Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1376
 COMMAND: src/sort_experiments quick_par 2 samples/sample3.in tmp_quick_par_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1856
+Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1974
 COMMAND: src/sort_experiments quick_par 2 samples/sample4.in tmp_quick_par_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.5628
+Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.6265
 COMMAND: src/sort_experiments quick_par 2 samples/sample5.in tmp_quick_par_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=155.0902
+Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=158.1794
 COMMAND: src/sort_experiments quick_par 2 samples/sample6.in tmp_quick_par_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=358.6984
+Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=345.3456
 COMMAND: src/sort_experiments quick_par 2 samples/sample7.in tmp_quick_par_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=645.3625
+Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=553.4204
 COMMAND: src/sort_experiments quick_par 2 samples/sample8.in tmp_quick_par_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1865.1222
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=379.1570, Correct=OK
+Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1867.6254
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=366.7077, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 4 samples/sample1.in tmp_quick_par_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2804
+Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2357
 COMMAND: src/sort_experiments quick_par 4 samples/sample2.in tmp_quick_par_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2700
+Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2868
 COMMAND: src/sort_experiments quick_par 4 samples/sample3.in tmp_quick_par_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3432
+Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3299
 COMMAND: src/sort_experiments quick_par 4 samples/sample4.in tmp_quick_par_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=11.2051
+Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=9.7055
 COMMAND: src/sort_experiments quick_par 4 samples/sample5.in tmp_quick_par_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=160.4186
+Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=157.5068
 COMMAND: src/sort_experiments quick_par 4 samples/sample6.in tmp_quick_par_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=350.8825
+Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=327.0852
 COMMAND: src/sort_experiments quick_par 4 samples/sample7.in tmp_quick_par_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=621.4210
+Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=651.1758
 COMMAND: src/sort_experiments quick_par 4 samples/sample8.in tmp_quick_par_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1917.0976
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=382.7398, Correct=OK
+Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1876.3514
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=377.8346, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 8 samples/sample1.in tmp_quick_par_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4640
+Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.3772
 COMMAND: src/sort_experiments quick_par 8 samples/sample2.in tmp_quick_par_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4899
+Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4287
 COMMAND: src/sort_experiments quick_par 8 samples/sample3.in tmp_quick_par_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.4929
+Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.5227
 COMMAND: src/sort_experiments quick_par 8 samples/sample4.in tmp_quick_par_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=12.5349
+Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=11.3091
 COMMAND: src/sort_experiments quick_par 8 samples/sample5.in tmp_quick_par_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=158.7089
+Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=158.1255
 COMMAND: src/sort_experiments quick_par 8 samples/sample6.in tmp_quick_par_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=323.6639
+Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=377.3993
 COMMAND: src/sort_experiments quick_par 8 samples/sample7.in tmp_quick_par_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=605.8653
+Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=611.7128
 COMMAND: src/sort_experiments quick_par 8 samples/sample8.in tmp_quick_par_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1933.6388
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=379.4823, Correct=OK
+Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1736.2402
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=362.0144, Correct=OK
 
 =========================================
 Compiling with flags: -O2 -march=native -fopenmp
@@ -360,345 +360,345 @@ Result for samples/sample1.in:
 Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0044
 COMMAND: src/sort_experiments std 1 samples/sample2.in tmp_std_1_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0135
+Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0110
 COMMAND: src/sort_experiments std 1 samples/sample3.in tmp_std_1_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1068
+Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1024
 COMMAND: src/sort_experiments std 1 samples/sample4.in tmp_std_1_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=11.2027
+Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=10.2815
 COMMAND: src/sort_experiments std 1 samples/sample5.in tmp_std_1_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=195.1729
+Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=183.2607
 COMMAND: src/sort_experiments std 1 samples/sample6.in tmp_std_1_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=445.3368
+Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=400.3732
 COMMAND: src/sort_experiments std 1 samples/sample7.in tmp_std_1_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=905.1436
+Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=840.5049
 COMMAND: src/sort_experiments std 1 samples/sample8.in tmp_std_1_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1877.8067
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=429.3484, Correct=OK
+Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1744.8953
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=397.4291, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments std 2 samples/sample1.in tmp_std_2_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0045
+Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0049
 COMMAND: src/sort_experiments std 2 samples/sample2.in tmp_std_2_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0209
+Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0159
 COMMAND: src/sort_experiments std 2 samples/sample3.in tmp_std_2_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1071
+Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1067
 COMMAND: src/sort_experiments std 2 samples/sample4.in tmp_std_2_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=8.6917
+Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=8.3335
 COMMAND: src/sort_experiments std 2 samples/sample5.in tmp_std_2_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=188.5114
+Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=190.0147
 COMMAND: src/sort_experiments std 2 samples/sample6.in tmp_std_2_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=438.1426
+Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=411.3378
 COMMAND: src/sort_experiments std 2 samples/sample7.in tmp_std_2_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=872.7972
+Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=841.4359
 COMMAND: src/sort_experiments std 2 samples/sample8.in tmp_std_2_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1852.4884
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=420.0954, Correct=OK
+Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1750.5283
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.2222, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments std 4 samples/sample1.in tmp_std_4_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0116
+Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0047
 COMMAND: src/sort_experiments std 4 samples/sample2.in tmp_std_4_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0110
+Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0107
 COMMAND: src/sort_experiments std 4 samples/sample3.in tmp_std_4_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1026
+Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1016
 COMMAND: src/sort_experiments std 4 samples/sample4.in tmp_std_4_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=8.1090
+Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=9.4712
 COMMAND: src/sort_experiments std 4 samples/sample5.in tmp_std_4_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=190.2055
+Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=197.0492
 COMMAND: src/sort_experiments std 4 samples/sample6.in tmp_std_4_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=456.0028
+Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=399.5160
 COMMAND: src/sort_experiments std 4 samples/sample7.in tmp_std_4_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=916.3146
+Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=846.2988
 COMMAND: src/sort_experiments std 4 samples/sample8.in tmp_std_4_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1886.1928
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=432.1187, Correct=OK
+Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1752.3216
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=400.5967, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments std 8 samples/sample1.in tmp_std_8_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0042
+Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0048
 COMMAND: src/sort_experiments std 8 samples/sample2.in tmp_std_8_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0086
+Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0110
 COMMAND: src/sort_experiments std 8 samples/sample3.in tmp_std_8_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1021
+Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1018
 COMMAND: src/sort_experiments std 8 samples/sample4.in tmp_std_8_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=10.2845
+Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=12.0446
 COMMAND: src/sort_experiments std 8 samples/sample5.in tmp_std_8_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=197.2457
+Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=178.9978
 COMMAND: src/sort_experiments std 8 samples/sample6.in tmp_std_8_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=439.0689
+Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=398.9761
 COMMAND: src/sort_experiments std 8 samples/sample7.in tmp_std_8_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=902.0526
+Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=840.5525
 COMMAND: src/sort_experiments std 8 samples/sample8.in tmp_std_8_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1839.3163
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=423.5103, Correct=OK
+Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1745.8215
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=397.0637, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick 1 samples/sample1.in tmp_quick_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0049
+Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0056
 COMMAND: src/sort_experiments quick 1 samples/sample2.in tmp_quick_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0121
+Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0115
 COMMAND: src/sort_experiments quick 1 samples/sample3.in tmp_quick_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1190
+Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1139
 COMMAND: src/sort_experiments quick 1 samples/sample4.in tmp_quick_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=12.1447
+Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=9.8996
 COMMAND: src/sort_experiments quick 1 samples/sample5.in tmp_quick_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=211.7190
+Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=236.0833
 COMMAND: src/sort_experiments quick 1 samples/sample6.in tmp_quick_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=507.9347
+Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=475.1763
 COMMAND: src/sort_experiments quick 1 samples/sample7.in tmp_quick_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1055.0388
+Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1007.7876
 COMMAND: src/sort_experiments quick 1 samples/sample8.in tmp_quick_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2192.6494
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=497.4528, Correct=OK
+Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2077.2606
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=475.7923, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick 2 samples/sample1.in tmp_quick_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0047
+Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0125
 COMMAND: src/sort_experiments quick 2 samples/sample2.in tmp_quick_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0123
+Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0117
 COMMAND: src/sort_experiments quick 2 samples/sample3.in tmp_quick_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1145
+Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1141
 COMMAND: src/sort_experiments quick 2 samples/sample4.in tmp_quick_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=9.9541
+Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=12.9706
 COMMAND: src/sort_experiments quick 2 samples/sample5.in tmp_quick_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=218.0331
+Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=202.8677
 COMMAND: src/sort_experiments quick 2 samples/sample6.in tmp_quick_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=528.4546
+Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=474.6726
 COMMAND: src/sort_experiments quick 2 samples/sample7.in tmp_quick_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1070.0350
+Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1060.3927
 COMMAND: src/sort_experiments quick 2 samples/sample8.in tmp_quick_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2228.2867
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=506.8618, Correct=OK
+Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2071.5548
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=477.8245, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick 4 samples/sample1.in tmp_quick_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0050
+Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0057
 COMMAND: src/sort_experiments quick 4 samples/sample2.in tmp_quick_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0122
+Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0116
 COMMAND: src/sort_experiments quick 4 samples/sample3.in tmp_quick_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1219
+Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1279
 COMMAND: src/sort_experiments quick 4 samples/sample4.in tmp_quick_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=10.3205
+Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=11.7468
 COMMAND: src/sort_experiments quick 4 samples/sample5.in tmp_quick_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=221.6523
+Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=232.1741
 COMMAND: src/sort_experiments quick 4 samples/sample6.in tmp_quick_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=563.9084
+Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=505.2177
 COMMAND: src/sort_experiments quick 4 samples/sample7.in tmp_quick_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1137.5639
+Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1049.9822
 COMMAND: src/sort_experiments quick 4 samples/sample8.in tmp_quick_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2260.1875
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=524.2214, Correct=OK
+Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2071.0943
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=483.7950, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick 8 samples/sample1.in tmp_quick_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0048
+Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0061
 COMMAND: src/sort_experiments quick 8 samples/sample2.in tmp_quick_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0165
+Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0121
 COMMAND: src/sort_experiments quick 8 samples/sample3.in tmp_quick_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1138
+Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1146
 COMMAND: src/sort_experiments quick 8 samples/sample4.in tmp_quick_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=10.2926
+Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=9.8147
 COMMAND: src/sort_experiments quick 8 samples/sample5.in tmp_quick_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=220.0440
+Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=236.6348
 COMMAND: src/sort_experiments quick 8 samples/sample6.in tmp_quick_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=539.3719
+Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=474.1405
 COMMAND: src/sort_experiments quick 8 samples/sample7.in tmp_quick_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1077.8191
+Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1007.3405
 COMMAND: src/sort_experiments quick 8 samples/sample8.in tmp_quick_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2223.3216
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=508.8730, Correct=OK
+Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2076.9526
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=475.6269, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 1 samples/sample1.in tmp_quick_par_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0082
+Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0090
 COMMAND: src/sort_experiments quick_par 1 samples/sample2.in tmp_quick_par_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0187
+Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0150
 COMMAND: src/sort_experiments quick_par 1 samples/sample3.in tmp_quick_par_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1242
+Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1187
 COMMAND: src/sort_experiments quick_par 1 samples/sample4.in tmp_quick_par_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=13.2034
+Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=11.9984
 COMMAND: src/sort_experiments quick_par 1 samples/sample5.in tmp_quick_par_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=225.2220
+Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=228.0456
 COMMAND: src/sort_experiments quick_par 1 samples/sample6.in tmp_quick_par_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=516.7188
+Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=475.4058
 COMMAND: src/sort_experiments quick_par 1 samples/sample7.in tmp_quick_par_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1086.3554
+Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1009.5293
 COMMAND: src/sort_experiments quick_par 1 samples/sample8.in tmp_quick_par_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2226.9735
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=508.5780, Correct=OK
+Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2074.5869
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=474.9635, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 2 samples/sample1.in tmp_quick_par_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1364
+Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1519
 COMMAND: src/sort_experiments quick_par 2 samples/sample2.in tmp_quick_par_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1268
+Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1085
 COMMAND: src/sort_experiments quick_par 2 samples/sample3.in tmp_quick_par_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.2029
+Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1980
 COMMAND: src/sort_experiments quick_par 2 samples/sample4.in tmp_quick_par_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.7769
+Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.4771
 COMMAND: src/sort_experiments quick_par 2 samples/sample5.in tmp_quick_par_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=159.4284
+Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=157.8416
 COMMAND: src/sort_experiments quick_par 2 samples/sample6.in tmp_quick_par_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=380.7887
+Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=353.2904
 COMMAND: src/sort_experiments quick_par 2 samples/sample7.in tmp_quick_par_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=596.8453
+Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=552.0664
 COMMAND: src/sort_experiments quick_par 2 samples/sample8.in tmp_quick_par_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1841.3338
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=373.4549, Correct=OK
+Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1737.7139
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=351.2309, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 4 samples/sample1.in tmp_quick_par_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2801
+Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2443
 COMMAND: src/sort_experiments quick_par 4 samples/sample2.in tmp_quick_par_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2732
+Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2675
 COMMAND: src/sort_experiments quick_par 4 samples/sample3.in tmp_quick_par_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3793
+Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3330
 COMMAND: src/sort_experiments quick_par 4 samples/sample4.in tmp_quick_par_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=13.0945
+Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=8.7426
 COMMAND: src/sort_experiments quick_par 4 samples/sample5.in tmp_quick_par_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=156.2724
+Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=157.6205
 COMMAND: src/sort_experiments quick_par 4 samples/sample6.in tmp_quick_par_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=340.6133
+Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=341.6143
 COMMAND: src/sort_experiments quick_par 4 samples/sample7.in tmp_quick_par_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=607.8013
+Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=596.4978
 COMMAND: src/sort_experiments quick_par 4 samples/sample8.in tmp_quick_par_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1871.7927
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=373.8133, Correct=OK
+Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1830.8625
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.0228, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 8 samples/sample1.in tmp_quick_par_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4210
+Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4034
 COMMAND: src/sort_experiments quick_par 8 samples/sample2.in tmp_quick_par_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4325
+Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4278
 COMMAND: src/sort_experiments quick_par 8 samples/sample3.in tmp_quick_par_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.4989
+Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.5207
 COMMAND: src/sort_experiments quick_par 8 samples/sample4.in tmp_quick_par_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=11.3656
+Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=7.2111
 COMMAND: src/sort_experiments quick_par 8 samples/sample5.in tmp_quick_par_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=155.9386
+Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=157.7135
 COMMAND: src/sort_experiments quick_par 8 samples/sample6.in tmp_quick_par_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=387.4717
+Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=337.5612
 COMMAND: src/sort_experiments quick_par 8 samples/sample7.in tmp_quick_par_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=633.3172
+Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=619.4578
 COMMAND: src/sort_experiments quick_par 8 samples/sample8.in tmp_quick_par_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1873.6082
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=382.8817, Correct=OK
+Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1812.4670
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=366.9703, Correct=OK
 
 =========================================
 Compiling with flags: -O3  -fopenmp
@@ -708,348 +708,348 @@ Algorithm=std, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments std 1 samples/sample1.in tmp_std_1_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0046
+Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0048
 COMMAND: src/sort_experiments std 1 samples/sample2.in tmp_std_1_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0109
+Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0160
 COMMAND: src/sort_experiments std 1 samples/sample3.in tmp_std_1_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1020
+Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1023
 COMMAND: src/sort_experiments std 1 samples/sample4.in tmp_std_1_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=9.7436
+Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=9.7786
 COMMAND: src/sort_experiments std 1 samples/sample5.in tmp_std_1_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=189.4444
+Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=197.4701
 COMMAND: src/sort_experiments std 1 samples/sample6.in tmp_std_1_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=433.9550
+Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=401.5816
 COMMAND: src/sort_experiments std 1 samples/sample7.in tmp_std_1_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=973.3170
+Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=895.2873
 COMMAND: src/sort_experiments std 1 samples/sample8.in tmp_std_1_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1928.4109
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=1, AvgTimeMS=441.8735, Correct=OK
+Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1749.2381
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=1, AvgTimeMS=406.6848, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments std 2 samples/sample1.in tmp_std_2_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0110
+Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0047
 COMMAND: src/sort_experiments std 2 samples/sample2.in tmp_std_2_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0108
+Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0105
 COMMAND: src/sort_experiments std 2 samples/sample3.in tmp_std_2_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1013
+Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1021
 COMMAND: src/sort_experiments std 2 samples/sample4.in tmp_std_2_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=9.3977
+Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=10.5417
 COMMAND: src/sort_experiments std 2 samples/sample5.in tmp_std_2_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=186.2980
+Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=193.2379
 COMMAND: src/sort_experiments std 2 samples/sample6.in tmp_std_2_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=463.0160
+Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=399.7971
 COMMAND: src/sort_experiments std 2 samples/sample7.in tmp_std_2_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=915.7899
+Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=845.0385
 COMMAND: src/sort_experiments std 2 samples/sample8.in tmp_std_2_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1875.8450
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=2, AvgTimeMS=431.3087, Correct=OK
+Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1752.2744
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.1258, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments std 4 samples/sample1.in tmp_std_4_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0045
+Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0049
 COMMAND: src/sort_experiments std 4 samples/sample2.in tmp_std_4_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0152
+Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0108
 COMMAND: src/sort_experiments std 4 samples/sample3.in tmp_std_4_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1028
+Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1015
 COMMAND: src/sort_experiments std 4 samples/sample4.in tmp_std_4_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=8.6378
+Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=8.8192
 COMMAND: src/sort_experiments std 4 samples/sample5.in tmp_std_4_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=203.9051
+Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=197.2577
 COMMAND: src/sort_experiments std 4 samples/sample6.in tmp_std_4_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=439.2240
+Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=424.3835
 COMMAND: src/sort_experiments std 4 samples/sample7.in tmp_std_4_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=894.1320
+Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=842.0782
 COMMAND: src/sort_experiments std 4 samples/sample8.in tmp_std_4_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1872.5904
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=4, AvgTimeMS=427.3264, Correct=OK
+Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1750.8778
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=4, AvgTimeMS=402.9417, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments std 8 samples/sample1.in tmp_std_8_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0044
+Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0047
 COMMAND: src/sort_experiments std 8 samples/sample2.in tmp_std_8_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0112
+Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0109
 COMMAND: src/sort_experiments std 8 samples/sample3.in tmp_std_8_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1008
+Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1018
 COMMAND: src/sort_experiments std 8 samples/sample4.in tmp_std_8_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=8.3800
+Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=9.9170
 COMMAND: src/sort_experiments std 8 samples/sample5.in tmp_std_8_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=187.4759
+Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=197.5418
 COMMAND: src/sort_experiments std 8 samples/sample6.in tmp_std_8_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=433.7122
+Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=399.7996
 COMMAND: src/sort_experiments std 8 samples/sample7.in tmp_std_8_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=895.5352
+Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=897.9492
 COMMAND: src/sort_experiments std 8 samples/sample8.in tmp_std_8_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1829.8148
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=8, AvgTimeMS=419.3793, Correct=OK
+Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1749.5219
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=8, AvgTimeMS=406.8558, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick 1 samples/sample1.in tmp_quick_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0050
+Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0053
 COMMAND: src/sort_experiments quick 1 samples/sample2.in tmp_quick_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0130
+Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0118
 COMMAND: src/sort_experiments quick 1 samples/sample3.in tmp_quick_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1178
+Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1185
 COMMAND: src/sort_experiments quick 1 samples/sample4.in tmp_quick_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=11.8630
+Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=12.0302
 COMMAND: src/sort_experiments quick 1 samples/sample5.in tmp_quick_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=217.1021
+Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=215.5566
 COMMAND: src/sort_experiments quick 1 samples/sample6.in tmp_quick_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=509.6283
+Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=486.4506
 COMMAND: src/sort_experiments quick 1 samples/sample7.in tmp_quick_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1087.7507
+Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1001.1105
 COMMAND: src/sort_experiments quick 1 samples/sample8.in tmp_quick_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2233.4124
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=507.4865, Correct=OK
+Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2068.5711
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=472.9818, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick 2 samples/sample1.in tmp_quick_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0050
+Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0054
 COMMAND: src/sort_experiments quick 2 samples/sample2.in tmp_quick_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0185
+Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0118
 COMMAND: src/sort_experiments quick 2 samples/sample3.in tmp_quick_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1298
+Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1141
 COMMAND: src/sort_experiments quick 2 samples/sample4.in tmp_quick_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=12.2110
+Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=13.1584
 COMMAND: src/sort_experiments quick 2 samples/sample5.in tmp_quick_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=228.6438
+Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=223.7866
 COMMAND: src/sort_experiments quick 2 samples/sample6.in tmp_quick_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=512.1065
+Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=481.6350
 COMMAND: src/sort_experiments quick 2 samples/sample7.in tmp_quick_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1054.5767
+Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1000.3001
 COMMAND: src/sort_experiments quick 2 samples/sample8.in tmp_quick_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2247.4958
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=506.8983, Correct=OK
+Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2074.0345
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=474.1307, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick 4 samples/sample1.in tmp_quick_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0087
+Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0054
 COMMAND: src/sort_experiments quick 4 samples/sample2.in tmp_quick_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0146
+Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0123
 COMMAND: src/sort_experiments quick 4 samples/sample3.in tmp_quick_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1149
+Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1144
 COMMAND: src/sort_experiments quick 4 samples/sample4.in tmp_quick_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=10.8122
+Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=10.4356
 COMMAND: src/sort_experiments quick 4 samples/sample5.in tmp_quick_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=223.5528
+Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=220.4343
 COMMAND: src/sort_experiments quick 4 samples/sample6.in tmp_quick_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=507.2033
+Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=474.7256
 COMMAND: src/sort_experiments quick 4 samples/sample7.in tmp_quick_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1070.9771
+Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1005.7930
 COMMAND: src/sort_experiments quick 4 samples/sample8.in tmp_quick_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2192.2652
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=500.6186, Correct=OK
+Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2075.2333
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=473.3442, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick 8 samples/sample1.in tmp_quick_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0046
+Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0059
 COMMAND: src/sort_experiments quick 8 samples/sample2.in tmp_quick_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0116
+Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0121
 COMMAND: src/sort_experiments quick 8 samples/sample3.in tmp_quick_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1509
+Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1182
 COMMAND: src/sort_experiments quick 8 samples/sample4.in tmp_quick_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=8.2679
+Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=13.2242
 COMMAND: src/sort_experiments quick 8 samples/sample5.in tmp_quick_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=207.3774
+Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=224.8782
 COMMAND: src/sort_experiments quick 8 samples/sample6.in tmp_quick_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=582.3880
+Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=474.8439
 COMMAND: src/sort_experiments quick 8 samples/sample7.in tmp_quick_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1038.7177
+Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1005.9899
 COMMAND: src/sort_experiments quick 8 samples/sample8.in tmp_quick_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2191.3881
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=503.5382, Correct=OK
+Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2074.4484
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=474.1901, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 1 samples/sample1.in tmp_quick_par_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0084
+Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0147
 COMMAND: src/sort_experiments quick_par 1 samples/sample2.in tmp_quick_par_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0154
+Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0198
 COMMAND: src/sort_experiments quick_par 1 samples/sample3.in tmp_quick_par_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1189
+Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1180
 COMMAND: src/sort_experiments quick_par 1 samples/sample4.in tmp_quick_par_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=12.5862
+Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=13.2151
 COMMAND: src/sort_experiments quick_par 1 samples/sample5.in tmp_quick_par_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=232.5048
+Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=233.4362
 COMMAND: src/sort_experiments quick_par 1 samples/sample6.in tmp_quick_par_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=523.8873
+Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=476.2204
 COMMAND: src/sort_experiments quick_par 1 samples/sample7.in tmp_quick_par_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1075.0669
+Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1002.7641
 COMMAND: src/sort_experiments quick_par 1 samples/sample8.in tmp_quick_par_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2209.1822
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=506.6712, Correct=OK
+Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2068.0353
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=474.2279, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 2 samples/sample1.in tmp_quick_par_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1387
+Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1367
 COMMAND: src/sort_experiments quick_par 2 samples/sample2.in tmp_quick_par_2_1.out
 Result for samples/sample2.in:
 Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1389
 COMMAND: src/sort_experiments quick_par 2 samples/sample3.in tmp_quick_par_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.2018
+Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1958
 COMMAND: src/sort_experiments quick_par 2 samples/sample4.in tmp_quick_par_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.1848
+Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=10.3147
 COMMAND: src/sort_experiments quick_par 2 samples/sample5.in tmp_quick_par_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=158.8819
+Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=156.4550
 COMMAND: src/sort_experiments quick_par 2 samples/sample6.in tmp_quick_par_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=342.3849
+Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=350.2426
 COMMAND: src/sort_experiments quick_par 2 samples/sample7.in tmp_quick_par_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=568.0751
+Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=554.4302
 COMMAND: src/sort_experiments quick_par 2 samples/sample8.in tmp_quick_par_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1837.0875
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=364.3867, Correct=OK
+Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1875.7040
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=368.4522, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 4 samples/sample1.in tmp_quick_par_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2720
+Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2968
 COMMAND: src/sort_experiments quick_par 4 samples/sample2.in tmp_quick_par_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2809
+Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2762
 COMMAND: src/sort_experiments quick_par 4 samples/sample3.in tmp_quick_par_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3332
+Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3436
 COMMAND: src/sort_experiments quick_par 4 samples/sample4.in tmp_quick_par_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=8.5253
+Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=9.2800
 COMMAND: src/sort_experiments quick_par 4 samples/sample5.in tmp_quick_par_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=159.3801
+Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=158.9365
 COMMAND: src/sort_experiments quick_par 4 samples/sample6.in tmp_quick_par_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=362.1148
+Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=382.2635
 COMMAND: src/sort_experiments quick_par 4 samples/sample7.in tmp_quick_par_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=592.5362
+Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=621.0859
 COMMAND: src/sort_experiments quick_par 4 samples/sample8.in tmp_quick_par_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1889.7942
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=376.6545, Correct=OK
+Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1737.2647
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=363.7184, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 8 samples/sample1.in tmp_quick_par_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4213
+Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4462
 COMMAND: src/sort_experiments quick_par 8 samples/sample2.in tmp_quick_par_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4400
+Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4586
 COMMAND: src/sort_experiments quick_par 8 samples/sample3.in tmp_quick_par_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.5398
+Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.5532
 COMMAND: src/sort_experiments quick_par 8 samples/sample4.in tmp_quick_par_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=13.1768
+Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=13.2235
 COMMAND: src/sort_experiments quick_par 8 samples/sample5.in tmp_quick_par_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=158.3398
+Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=157.4776
 COMMAND: src/sort_experiments quick_par 8 samples/sample6.in tmp_quick_par_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=336.2040
+Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=344.9832
 COMMAND: src/sort_experiments quick_par 8 samples/sample7.in tmp_quick_par_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=621.6389
+Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=609.6699
 COMMAND: src/sort_experiments quick_par 8 samples/sample8.in tmp_quick_par_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1887.0620
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=377.2278, Correct=OK
+Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1742.6678
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=358.6850, Correct=OK
 
 =========================================
 Compiling with flags: -O3 -march=native -fopenmp
@@ -1059,360 +1059,360 @@ Algorithm=std, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments std 1 samples/sample1.in tmp_std_1_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0042
+Algorithm=std, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0053
 COMMAND: src/sort_experiments std 1 samples/sample2.in tmp_std_1_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0107
+Algorithm=std, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0109
 COMMAND: src/sort_experiments std 1 samples/sample3.in tmp_std_1_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1018
+Algorithm=std, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1072
 COMMAND: src/sort_experiments std 1 samples/sample4.in tmp_std_1_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=8.6289
+Algorithm=std, Threads=1, InputFile=samples/sample4.in, TimeMS=11.1170
 COMMAND: src/sort_experiments std 1 samples/sample5.in tmp_std_1_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=154.2337
+Algorithm=std, Threads=1, InputFile=samples/sample5.in, TimeMS=197.3077
 COMMAND: src/sort_experiments std 1 samples/sample6.in tmp_std_1_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=435.0571
+Algorithm=std, Threads=1, InputFile=samples/sample6.in, TimeMS=412.7259
 COMMAND: src/sort_experiments std 1 samples/sample7.in tmp_std_1_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=907.7062
+Algorithm=std, Threads=1, InputFile=samples/sample7.in, TimeMS=890.6846
 COMMAND: src/sort_experiments std 1 samples/sample8.in tmp_std_1_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1894.2883
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=425.0038, Correct=OK
+Algorithm=std, Threads=1, InputFile=samples/sample8.in, TimeMS=1750.0538
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=407.7515, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments std 2 samples/sample1.in tmp_std_2_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0096
+Algorithm=std, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0042
 COMMAND: src/sort_experiments std 2 samples/sample2.in tmp_std_2_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0103
+Algorithm=std, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0104
 COMMAND: src/sort_experiments std 2 samples/sample3.in tmp_std_2_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1016
+Algorithm=std, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1012
 COMMAND: src/sort_experiments std 2 samples/sample4.in tmp_std_2_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=10.8463
+Algorithm=std, Threads=2, InputFile=samples/sample4.in, TimeMS=9.0224
 COMMAND: src/sort_experiments std 2 samples/sample5.in tmp_std_2_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=193.0474
+Algorithm=std, Threads=2, InputFile=samples/sample5.in, TimeMS=197.1272
 COMMAND: src/sort_experiments std 2 samples/sample6.in tmp_std_2_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=454.2502
+Algorithm=std, Threads=2, InputFile=samples/sample6.in, TimeMS=401.7802
 COMMAND: src/sort_experiments std 2 samples/sample7.in tmp_std_2_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=912.3630
+Algorithm=std, Threads=2, InputFile=samples/sample7.in, TimeMS=847.6027
 COMMAND: src/sort_experiments std 2 samples/sample8.in tmp_std_2_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1852.4226
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=427.8813, Correct=OK
+Algorithm=std, Threads=2, InputFile=samples/sample8.in, TimeMS=1750.2561
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.7380, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments std 4 samples/sample1.in tmp_std_4_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0042
+Algorithm=std, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0049
 COMMAND: src/sort_experiments std 4 samples/sample2.in tmp_std_4_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0102
+Algorithm=std, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0107
 COMMAND: src/sort_experiments std 4 samples/sample3.in tmp_std_4_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1053
+Algorithm=std, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1016
 COMMAND: src/sort_experiments std 4 samples/sample4.in tmp_std_4_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=8.7149
+Algorithm=std, Threads=4, InputFile=samples/sample4.in, TimeMS=10.5091
 COMMAND: src/sort_experiments std 4 samples/sample5.in tmp_std_4_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=197.8797
+Algorithm=std, Threads=4, InputFile=samples/sample5.in, TimeMS=185.2731
 COMMAND: src/sort_experiments std 4 samples/sample6.in tmp_std_4_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=439.0929
+Algorithm=std, Threads=4, InputFile=samples/sample6.in, TimeMS=404.5853
 COMMAND: src/sort_experiments std 4 samples/sample7.in tmp_std_4_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=902.9754
+Algorithm=std, Threads=4, InputFile=samples/sample7.in, TimeMS=844.7192
 COMMAND: src/sort_experiments std 4 samples/sample8.in tmp_std_4_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1895.3792
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=430.5202, Correct=OK
+Algorithm=std, Threads=4, InputFile=samples/sample8.in, TimeMS=1753.2130
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=399.8021, Correct=OK
 
 ----------------------------------------
 Algorithm=std, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments std 8 samples/sample1.in tmp_std_8_0.out
 Result for samples/sample1.in:
-Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0044
+Algorithm=std, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0043
 COMMAND: src/sort_experiments std 8 samples/sample2.in tmp_std_8_1.out
 Result for samples/sample2.in:
-Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0109
+Algorithm=std, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0106
 COMMAND: src/sort_experiments std 8 samples/sample3.in tmp_std_8_2.out
 Result for samples/sample3.in:
-Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1014
+Algorithm=std, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1020
 COMMAND: src/sort_experiments std 8 samples/sample4.in tmp_std_8_3.out
 Result for samples/sample4.in:
-Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=10.1454
+Algorithm=std, Threads=8, InputFile=samples/sample4.in, TimeMS=9.2312
 COMMAND: src/sort_experiments std 8 samples/sample5.in tmp_std_8_4.out
 Result for samples/sample5.in:
-Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=199.3479
+Algorithm=std, Threads=8, InputFile=samples/sample5.in, TimeMS=162.2641
 COMMAND: src/sort_experiments std 8 samples/sample6.in tmp_std_8_5.out
 Result for samples/sample6.in:
-Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=442.7103
+Algorithm=std, Threads=8, InputFile=samples/sample6.in, TimeMS=420.8249
 COMMAND: src/sort_experiments std 8 samples/sample7.in tmp_std_8_6.out
 Result for samples/sample7.in:
-Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=908.0525
+Algorithm=std, Threads=8, InputFile=samples/sample7.in, TimeMS=861.7313
 COMMAND: src/sort_experiments std 8 samples/sample8.in tmp_std_8_7.out
 Result for samples/sample8.in:
-Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1910.5373
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=433.8637, Correct=OK
+Algorithm=std, Threads=8, InputFile=samples/sample8.in, TimeMS=1852.9831
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=413.3939, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick 1 samples/sample1.in tmp_quick_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0108
+Algorithm=quick, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0112
 COMMAND: src/sort_experiments quick 1 samples/sample2.in tmp_quick_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0124
+Algorithm=quick, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0117
 COMMAND: src/sort_experiments quick 1 samples/sample3.in tmp_quick_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1144
+Algorithm=quick, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1135
 COMMAND: src/sort_experiments quick 1 samples/sample4.in tmp_quick_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=12.5251
+Algorithm=quick, Threads=1, InputFile=samples/sample4.in, TimeMS=10.2939
 COMMAND: src/sort_experiments quick 1 samples/sample5.in tmp_quick_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=215.6705
+Algorithm=quick, Threads=1, InputFile=samples/sample5.in, TimeMS=196.3103
 COMMAND: src/sort_experiments quick 1 samples/sample6.in tmp_quick_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=523.2792
+Algorithm=quick, Threads=1, InputFile=samples/sample6.in, TimeMS=508.0844
 COMMAND: src/sort_experiments quick 1 samples/sample7.in tmp_quick_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1080.2340
+Algorithm=quick, Threads=1, InputFile=samples/sample7.in, TimeMS=1060.7935
 COMMAND: src/sort_experiments quick 1 samples/sample8.in tmp_quick_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2230.8677
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=507.8392, Correct=OK
+Algorithm=quick, Threads=1, InputFile=samples/sample8.in, TimeMS=2126.9437
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=487.8202, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick 2 samples/sample1.in tmp_quick_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0050
+Algorithm=quick, Threads=2, InputFile=samples/sample1.in, TimeMS=0.0056
 COMMAND: src/sort_experiments quick 2 samples/sample2.in tmp_quick_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0201
+Algorithm=quick, Threads=2, InputFile=samples/sample2.in, TimeMS=0.0121
 COMMAND: src/sort_experiments quick 2 samples/sample3.in tmp_quick_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1229
+Algorithm=quick, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1200
 COMMAND: src/sort_experiments quick 2 samples/sample4.in tmp_quick_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=11.4615
+Algorithm=quick, Threads=2, InputFile=samples/sample4.in, TimeMS=13.3271
 COMMAND: src/sort_experiments quick 2 samples/sample5.in tmp_quick_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=194.4260
+Algorithm=quick, Threads=2, InputFile=samples/sample5.in, TimeMS=221.1541
 COMMAND: src/sort_experiments quick 2 samples/sample6.in tmp_quick_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=516.0861
+Algorithm=quick, Threads=2, InputFile=samples/sample6.in, TimeMS=510.9580
 COMMAND: src/sort_experiments quick 2 samples/sample7.in tmp_quick_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1075.7437
+Algorithm=quick, Threads=2, InputFile=samples/sample7.in, TimeMS=1053.7979
 COMMAND: src/sort_experiments quick 2 samples/sample8.in tmp_quick_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2342.9877
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=517.6066, Correct=OK
+Algorithm=quick, Threads=2, InputFile=samples/sample8.in, TimeMS=2146.3085
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=493.2104, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick 4 samples/sample1.in tmp_quick_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0055
+Algorithm=quick, Threads=4, InputFile=samples/sample1.in, TimeMS=0.0056
 COMMAND: src/sort_experiments quick 4 samples/sample2.in tmp_quick_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0117
+Algorithm=quick, Threads=4, InputFile=samples/sample2.in, TimeMS=0.0128
 COMMAND: src/sort_experiments quick 4 samples/sample3.in tmp_quick_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1157
+Algorithm=quick, Threads=4, InputFile=samples/sample3.in, TimeMS=0.1142
 COMMAND: src/sort_experiments quick 4 samples/sample4.in tmp_quick_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=10.9061
+Algorithm=quick, Threads=4, InputFile=samples/sample4.in, TimeMS=11.9582
 COMMAND: src/sort_experiments quick 4 samples/sample5.in tmp_quick_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=221.6716
+Algorithm=quick, Threads=4, InputFile=samples/sample5.in, TimeMS=230.6358
 COMMAND: src/sort_experiments quick 4 samples/sample6.in tmp_quick_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=508.0106
+Algorithm=quick, Threads=4, InputFile=samples/sample6.in, TimeMS=508.1412
 COMMAND: src/sort_experiments quick 4 samples/sample7.in tmp_quick_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1059.6751
+Algorithm=quick, Threads=4, InputFile=samples/sample7.in, TimeMS=1047.6705
 COMMAND: src/sort_experiments quick 4 samples/sample8.in tmp_quick_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2375.4815
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=521.9847, Correct=OK
+Algorithm=quick, Threads=4, InputFile=samples/sample8.in, TimeMS=2190.1554
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=498.5867, Correct=OK
 
 ----------------------------------------
 Algorithm=quick, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick 8 samples/sample1.in tmp_quick_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0049
+Algorithm=quick, Threads=8, InputFile=samples/sample1.in, TimeMS=0.0107
 COMMAND: src/sort_experiments quick 8 samples/sample2.in tmp_quick_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0168
+Algorithm=quick, Threads=8, InputFile=samples/sample2.in, TimeMS=0.0118
 COMMAND: src/sort_experiments quick 8 samples/sample3.in tmp_quick_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1156
+Algorithm=quick, Threads=8, InputFile=samples/sample3.in, TimeMS=0.1162
 COMMAND: src/sort_experiments quick 8 samples/sample4.in tmp_quick_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=12.6967
+Algorithm=quick, Threads=8, InputFile=samples/sample4.in, TimeMS=11.0506
 COMMAND: src/sort_experiments quick 8 samples/sample5.in tmp_quick_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=219.4429
+Algorithm=quick, Threads=8, InputFile=samples/sample5.in, TimeMS=220.8118
 COMMAND: src/sort_experiments quick 8 samples/sample6.in tmp_quick_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=520.3005
+Algorithm=quick, Threads=8, InputFile=samples/sample6.in, TimeMS=514.2797
 COMMAND: src/sort_experiments quick 8 samples/sample7.in tmp_quick_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1075.2511
+Algorithm=quick, Threads=8, InputFile=samples/sample7.in, TimeMS=1072.1439
 COMMAND: src/sort_experiments quick 8 samples/sample8.in tmp_quick_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2304.2353
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=516.5079, Correct=OK
+Algorithm=quick, Threads=8, InputFile=samples/sample8.in, TimeMS=2178.6101
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=499.6293, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=1
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 1 samples/sample1.in tmp_quick_par_1_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0144
+Algorithm=quick_par, Threads=1, InputFile=samples/sample1.in, TimeMS=0.0094
 COMMAND: src/sort_experiments quick_par 1 samples/sample2.in tmp_quick_par_1_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0146
+Algorithm=quick_par, Threads=1, InputFile=samples/sample2.in, TimeMS=0.0154
 COMMAND: src/sort_experiments quick_par 1 samples/sample3.in tmp_quick_par_1_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1176
+Algorithm=quick_par, Threads=1, InputFile=samples/sample3.in, TimeMS=0.1074
 COMMAND: src/sort_experiments quick_par 1 samples/sample4.in tmp_quick_par_1_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=10.8957
+Algorithm=quick_par, Threads=1, InputFile=samples/sample4.in, TimeMS=9.5957
 COMMAND: src/sort_experiments quick_par 1 samples/sample5.in tmp_quick_par_1_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=227.0704
+Algorithm=quick_par, Threads=1, InputFile=samples/sample5.in, TimeMS=217.3456
 COMMAND: src/sort_experiments quick_par 1 samples/sample6.in tmp_quick_par_1_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=512.5566
+Algorithm=quick_par, Threads=1, InputFile=samples/sample6.in, TimeMS=508.8811
 COMMAND: src/sort_experiments quick_par 1 samples/sample7.in tmp_quick_par_1_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1082.6903
+Algorithm=quick_par, Threads=1, InputFile=samples/sample7.in, TimeMS=1044.8891
 COMMAND: src/sort_experiments quick_par 1 samples/sample8.in tmp_quick_par_1_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2286.4392
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=514.9748, Correct=OK
+Algorithm=quick_par, Threads=1, InputFile=samples/sample8.in, TimeMS=2176.2915
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=494.6419, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=2
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 2 samples/sample1.in tmp_quick_par_2_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1344
+Algorithm=quick_par, Threads=2, InputFile=samples/sample1.in, TimeMS=0.1437
 COMMAND: src/sort_experiments quick_par 2 samples/sample2.in tmp_quick_par_2_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1358
+Algorithm=quick_par, Threads=2, InputFile=samples/sample2.in, TimeMS=0.1177
 COMMAND: src/sort_experiments quick_par 2 samples/sample3.in tmp_quick_par_2_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.1673
+Algorithm=quick_par, Threads=2, InputFile=samples/sample3.in, TimeMS=0.2165
 COMMAND: src/sort_experiments quick_par 2 samples/sample4.in tmp_quick_par_2_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=8.8157
+Algorithm=quick_par, Threads=2, InputFile=samples/sample4.in, TimeMS=10.2620
 COMMAND: src/sort_experiments quick_par 2 samples/sample5.in tmp_quick_par_2_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=155.6067
+Algorithm=quick_par, Threads=2, InputFile=samples/sample5.in, TimeMS=158.9902
 COMMAND: src/sort_experiments quick_par 2 samples/sample6.in tmp_quick_par_2_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=379.7422
+Algorithm=quick_par, Threads=2, InputFile=samples/sample6.in, TimeMS=359.0907
 COMMAND: src/sort_experiments quick_par 2 samples/sample7.in tmp_quick_par_2_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=606.2896
+Algorithm=quick_par, Threads=2, InputFile=samples/sample7.in, TimeMS=656.1960
 COMMAND: src/sort_experiments quick_par 2 samples/sample8.in tmp_quick_par_2_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1880.4534
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=378.9181, Correct=OK
+Algorithm=quick_par, Threads=2, InputFile=samples/sample8.in, TimeMS=1860.9439
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=380.7450, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=4
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 4 samples/sample1.in tmp_quick_par_4_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2332
+Algorithm=quick_par, Threads=4, InputFile=samples/sample1.in, TimeMS=0.2868
 COMMAND: src/sort_experiments quick_par 4 samples/sample2.in tmp_quick_par_4_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2629
+Algorithm=quick_par, Threads=4, InputFile=samples/sample2.in, TimeMS=0.2769
 COMMAND: src/sort_experiments quick_par 4 samples/sample3.in tmp_quick_par_4_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3636
+Algorithm=quick_par, Threads=4, InputFile=samples/sample3.in, TimeMS=0.3380
 COMMAND: src/sort_experiments quick_par 4 samples/sample4.in tmp_quick_par_4_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=10.5359
+Algorithm=quick_par, Threads=4, InputFile=samples/sample4.in, TimeMS=11.0418
 COMMAND: src/sort_experiments quick_par 4 samples/sample5.in tmp_quick_par_4_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=156.3915
+Algorithm=quick_par, Threads=4, InputFile=samples/sample5.in, TimeMS=157.7139
 COMMAND: src/sort_experiments quick_par 4 samples/sample6.in tmp_quick_par_4_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=336.4353
+Algorithm=quick_par, Threads=4, InputFile=samples/sample6.in, TimeMS=381.5955
 COMMAND: src/sort_experiments quick_par 4 samples/sample7.in tmp_quick_par_4_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=589.2794
+Algorithm=quick_par, Threads=4, InputFile=samples/sample7.in, TimeMS=639.2124
 COMMAND: src/sort_experiments quick_par 4 samples/sample8.in tmp_quick_par_4_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1872.8508
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=370.7940, Correct=OK
+Algorithm=quick_par, Threads=4, InputFile=samples/sample8.in, TimeMS=1746.5931
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.1323, Correct=OK
 
 ----------------------------------------
 Algorithm=quick_par, Threads=8
 ----------------------------------------
 COMMAND: src/sort_experiments quick_par 8 samples/sample1.in tmp_quick_par_8_0.out
 Result for samples/sample1.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4851
+Algorithm=quick_par, Threads=8, InputFile=samples/sample1.in, TimeMS=0.4721
 COMMAND: src/sort_experiments quick_par 8 samples/sample2.in tmp_quick_par_8_1.out
 Result for samples/sample2.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4798
+Algorithm=quick_par, Threads=8, InputFile=samples/sample2.in, TimeMS=0.4624
 COMMAND: src/sort_experiments quick_par 8 samples/sample3.in tmp_quick_par_8_2.out
 Result for samples/sample3.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.4892
+Algorithm=quick_par, Threads=8, InputFile=samples/sample3.in, TimeMS=0.5014
 COMMAND: src/sort_experiments quick_par 8 samples/sample4.in tmp_quick_par_8_3.out
 Result for samples/sample4.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=13.1882
+Algorithm=quick_par, Threads=8, InputFile=samples/sample4.in, TimeMS=13.2735
 COMMAND: src/sort_experiments quick_par 8 samples/sample5.in tmp_quick_par_8_4.out
 Result for samples/sample5.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=159.6534
+Algorithm=quick_par, Threads=8, InputFile=samples/sample5.in, TimeMS=158.3863
 COMMAND: src/sort_experiments quick_par 8 samples/sample6.in tmp_quick_par_8_5.out
 Result for samples/sample6.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=343.8388
+Algorithm=quick_par, Threads=8, InputFile=samples/sample6.in, TimeMS=345.1175
 COMMAND: src/sort_experiments quick_par 8 samples/sample7.in tmp_quick_par_8_6.out
 Result for samples/sample7.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=648.0025
+Algorithm=quick_par, Threads=8, InputFile=samples/sample7.in, TimeMS=678.4406
 COMMAND: src/sort_experiments quick_par 8 samples/sample8.in tmp_quick_par_8_7.out
 Result for samples/sample8.in:
-Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1973.0619
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=392.3998, Correct=OK
+Algorithm=quick_par, Threads=8, InputFile=samples/sample8.in, TimeMS=1876.8431
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=384.1871, Correct=OK
 
 
 =========================================
        Top 10 Fastest Overall           
 =========================================
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=364.3867, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=370.7940, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=373.4549, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=373.8133, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=376.6545, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=377.2278, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=378.9181, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=379.1570, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=379.4823, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=382.7398, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=351.2309, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=358.6850, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=362.0144, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=363.7184, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=366.7077, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=366.9703, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.0228, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.1323, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=368.4522, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=377.8346, Correct=OK

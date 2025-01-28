@@ -1,48 +1,48 @@
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=1, AvgTimeMS=433.7284, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=2, AvgTimeMS=426.9282, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=4, AvgTimeMS=429.1903, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=8, AvgTimeMS=430.0719, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=501.2080, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=514.6643, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=500.6615, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=511.7749, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=515.2171, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=379.1570, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=382.7398, Correct=OK
-SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=379.4823, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=429.3484, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=420.0954, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=432.1187, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=423.5103, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=497.4528, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=506.8618, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=524.2214, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=508.8730, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=508.5780, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=373.4549, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=373.8133, Correct=OK
-SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=382.8817, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=1, AvgTimeMS=441.8735, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=2, AvgTimeMS=431.3087, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=4, AvgTimeMS=427.3264, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=8, AvgTimeMS=419.3793, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=507.4865, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=506.8983, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=500.6186, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=503.5382, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=506.6712, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=364.3867, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=376.6545, Correct=OK
-SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=377.2278, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=425.0038, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=427.8813, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=430.5202, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=433.8637, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=507.8392, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=517.6066, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=521.9847, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=516.5079, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=514.9748, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=378.9181, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=370.7940, Correct=OK
-SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=392.3998, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=1, AvgTimeMS=400.2668, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=2, AvgTimeMS=394.0792, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=4, AvgTimeMS=401.2154, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=std, Threads=8, AvgTimeMS=398.6442, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=476.3655, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=494.3176, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=481.1183, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=475.1379, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=473.2996, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=366.7077, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=377.8346, Correct=OK
+SUMMARY: CompilerFlags=-O2  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=362.0144, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=397.4291, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.2222, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=400.5967, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=397.0637, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=475.7923, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=477.8245, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=483.7950, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=475.6269, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=474.9635, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=351.2309, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.0228, Correct=OK
+SUMMARY: CompilerFlags=-O2 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=366.9703, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=1, AvgTimeMS=406.6848, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.1258, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=4, AvgTimeMS=402.9417, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=std, Threads=8, AvgTimeMS=406.8558, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=1, AvgTimeMS=472.9818, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=2, AvgTimeMS=474.1307, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=4, AvgTimeMS=473.3442, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick, Threads=8, AvgTimeMS=474.1901, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=474.2279, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=368.4522, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=363.7184, Correct=OK
+SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=358.6850, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=1, AvgTimeMS=407.7515, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=2, AvgTimeMS=400.7380, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=4, AvgTimeMS=399.8021, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=std, Threads=8, AvgTimeMS=413.3939, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=1, AvgTimeMS=487.8202, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=2, AvgTimeMS=493.2104, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=4, AvgTimeMS=498.5867, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick, Threads=8, AvgTimeMS=499.6293, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=1, AvgTimeMS=494.6419, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=380.7450, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=367.1323, Correct=OK
+SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=8, AvgTimeMS=384.1871, Correct=OK
