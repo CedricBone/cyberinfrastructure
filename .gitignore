@@ -1,0 +1,11 @@
+# Ignore large output files
+hw1/samples/sample7.out
+hw1/samples/sample8.out
+
+# Ignore Git object files (if corruption exists)
+.git/objects/
+
+# Ignore other temporary and build files
+*.o
+*.log
+*.tmp
