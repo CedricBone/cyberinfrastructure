@@ -1,6 +1,5 @@
-# Ignore large output files
-hw1/samples/sample7.out
-hw1/samples/sample8.out
+# Ignore all sample output files
+hw1/samples/*.out
 
 # Ignore Git object files (if corruption exists)
 .git/objects/
