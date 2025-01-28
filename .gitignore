@@ -1,6 +1,9 @@
 # Ignore all sample output files
 hw1/samples/*.out
 
+# Ignore output file
+hw1/outputs/output_file
+
 # Ignore Git object files (if corruption exists)
 .git/objects/
 
