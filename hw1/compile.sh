@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# best configuration = SUMMARY: CompilerFlags=-O3  -fopenmp, Alg=quick_par, Threads=2, AvgTimeMS=364.3867, Correct=OK
+# best configuration = SUMMARY: CompilerFlags=-O3 -march=native -fopenmp, Alg=quick_par, Threads=4, AvgTimeMS=347.6451, Correct=OK
 
-g++ -O3 -fopenmp -o sort src/sort.cc
+g++ -O3 -march=native -fopenmp -o sort src/sort.cc
